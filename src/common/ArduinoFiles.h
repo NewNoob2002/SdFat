@@ -24,6 +24,7 @@
  */
 #pragma once
 #include "SysCall.h"
+#include "FS.h"
 //------------------------------------------------------------------------------
 /** Arduino SD.h style flag for open for read. */
 #ifndef FILE_READ

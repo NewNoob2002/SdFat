@@ -458,7 +458,7 @@ typedef ExFile File;
 typedef FsFile File;
 #endif  // SDFAT_FILE_TYPE
 #elif !defined(DISABLE_FS_H_WARNING)
-#warning File not defined because __has_include(FS.h)
+// #warning File not defined because __has_include(FS.h)
 #endif  // HAS_INCLUDE_FS_H
 /**
  * \class SdFile
