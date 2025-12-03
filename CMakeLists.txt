@@ -3,6 +3,12 @@ set(SDfat ${CMAKE_CURRENT_LIST_DIR})
 if(DEFINED ESP_PLATFORM)
     set(COMPONENT_ADD_INCLUDEDIRS
         ${SDfat}/src
+        ${SDfat}/src/common
+        ${SDfat}/src/ExFatLib
+        ${SDfat}/src/FatLib
+        ${SDfat}/src/FsLib
+        ${SDfat}/src/iostream
+        ${SDfat}/src/SdCard
     )
     file(GLOB_RECURSE SRCS
         ${SDfat}/src/*.cpp
